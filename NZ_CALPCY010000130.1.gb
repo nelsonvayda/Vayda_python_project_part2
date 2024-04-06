@@ -1,0 +1,91 @@
+LOCUS       NZ_CALPCY010000130      2066 bp    DNA     linear   CON 29-FEB-2024
+DEFINITION  Otoolea muris strain DSM 111138
+            NODE_130_length_2066_cov_600.335847, whole genome shotgun sequence.
+ACCESSION   NZ_CALPCY010000130 NZ_CALPCY010000000
+VERSION     NZ_CALPCY010000130.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMEA14418528
+            Assembly: GCF_943193115.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Otoolea muris
+  ORGANISM  Otoolea muris
+            Bacteria; Bacillota; Clostridia; Lachnospirales; Lachnospiraceae;
+            Otoolea.
+REFERENCE   1  (bases 1 to 2066)
+  AUTHORS   Treichel,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAY-2022) RWTH Aachen University Hospital, Functional
+            Microbiome Research Group, Pauwelsstrasse 30, 52074 Aachen, Germany
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CALPCY010000130.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 02/29/2024 07:41:02
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.6
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 5,481
+            CDSs (total)                      :: 5,416
+            Genes (coding)                    :: 5,203
+            CDSs (with protein)               :: 5,203
+            Genes (RNA)                       :: 65
+            rRNAs                             :: 1, 2 (16S, 23S)
+            partial rRNAs                     :: 1, 2 (16S, 23S)
+            tRNAs                             :: 58
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 213
+            CDSs (without protein)            :: 213
+            Pseudo Genes (ambiguous residues) :: 0 of 213
+            Pseudo Genes (frameshifted)       :: 26 of 213
+            Pseudo Genes (incomplete)         :: 181 of 213
+            Pseudo Genes (internal stop)      :: 35 of 213
+            Pseudo Genes (multiple problems)  :: 27 of 213
+            CRISPR Arrays                     :: 1
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2066
+                     /organism="Otoolea muris"
+                     /mol_type="genomic DNA"
+                     /submitter_seqid="NODE_130_length_2066_cov_600.335847"
+                     /strain="DSM 111138"
+                     /isolation_source="gut content"
+                     /type_material="type strain of Otoolea muris"
+                     /db_xref="taxon:2941515"
+                     /note="contig: NODE_130_length_2066_cov_600.335847"
+     gene            complement(<1..1285)
+                     /gene="ltrA"
+                     /locus_tag="NFS31_RS26535"
+     CDS             complement(<1..1285)
+                     /gene="ltrA"
+                     /locus_tag="NFS31_RS26535"
+                     /EC_number="2.7.7.49"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_016283879.1"
+                     /GO_function="GO:0003964 - RNA-directed DNA polymerase
+                     activity [Evidence IEA]"
+                     /GO_process="GO:0000373 - Group II intron splicing
+                     [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="group II intron reverse transcriptase/maturase"
+                     /protein_id="WP_251502042.1"
+                     /translation="MATGKAQKKDKLRHAEYYDFQEIQDKLYADSSKGKVFKHLVEII
+                     ALPENIRLAYRNIKKNHGSMTPGTDGKTITELATLSDEQLISSVQHKLDWYVPQSVRR
+                     VEIPKGNDPTKKRPLGIPTIMDRLIQQCVLQVMEPICEAKFHDHSYGFRPNRNQQHAI
+                     AQVHKDMQRSNLHYVVDIDIKGFFDNVNHGKLLKQLWTMGIHDKKLLCILSAMLKAEV
+                     AGIGFPEVGTPQGGIISPLLSNVVLNELDWWLASQWEEIPTEFPYKETVNPNGSVSKS
+                     HKFSALRRTKLKEVTCVRYADDFKIFTNSYQNAVKLFHATKSWLHERLALEISPEKSK
+                     VINLKEQYSEFLGFKLKVIPRGKRSDGRTKYVVESHIREKSIVKIKPNLKRLIYDIEF
+                     PSQGKRTEYQAICRYNVYVMGIHDYYQLATKVCDDL"
+CONTIG      join(CALPCY010000130.1:1..2066)
+//
+
